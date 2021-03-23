@@ -1,0 +1,416 @@
+*{
+	text-decoration: none;
+	list-style: none;
+	font-family: algerian;
+	padding: 0px;
+	margin:0px;
+	color: black;
+	background-color: none;
+	max-width: 1400px;
+	text-align: center;
+}
+
+
+
+.navbar{
+	width:100%;
+	position:fixed;
+	padding: 20px 10px;
+	background-color: white;
+	height: 50px;
+	background-attachment: fixed;
+	margin-top: 0px;
+}
+.max-width{
+	display: flex;
+	justify-content: space-between;
+	
+	align-content: auto;
+}
+.logo{
+	width: 25%;
+	padding:0px 0px;
+	height: 50px;
+}
+.logo a img{
+	margin-top: 0px;
+	margin-left:0px; 
+	text-align: left;
+	width:100%;
+	height: 100%
+}
+
+
+.logo a{
+	color:black;
+	font-size: 25px;
+	font-weight: 350;
+	margin-right:50px;
+	padding-left: 10px;
+	width: 20%;
+	min-width: 400px;
+	min-height: 50px;
+}
+.logo a span{
+	color:black;
+	font-size:16px;
+	padding-left:20px;
+	padding-right: 20px
+	padding-top:0px;
+}
+.logo a strong{
+	color:pink;
+}
+
+.menu{
+	width: 75%;
+	margin-top: 10px;
+	margin-left: 100px ;
+	margin-right: 5px;
+}
+.menu li{
+	display: inline-block;
+	margin-right: 20px;
+	color: black;
+}
+.menu li:hover{
+	text-decoration-color: underline,pink;
+}
+.service :after{
+	content: ">";
+    font-size: 20px;
+    font-weight: 600;
+}
+.sous{
+	display:none;
+	position:absolute;
+}
+.sous li{
+	color:pink;
+	width:50%;
+	text-align:center;
+	background-color:gray;
+	border:2px solid ;
+	float:none;
+
+}
+.navbar .menu li:hover .sous{
+	display: block;
+}
+
+
+
+.cont{
+	display: flex;
+
+}
+
+
+.conteneur2{
+	background-color: gray;
+	max-width: 650px;
+	overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px ;
+}
+@keyframes fondu2 {
+	0%{background-image: url("coupe1 (2).jfif");}
+	33.33%{background-image: url("coupe1 (1).jfif");}
+	66.67%{background-image: url("ndiaya (9).jpeg");}
+	100%{background-image: url("coupe1 (2).jfif");}
+}
+.font2{
+	width:650px;
+	height:600px;
+	margin-left:30px auto ;
+	box-shadow: 0px 20px 8px -10px blue;
+	background-color: #EDEDED; 
+	
+	animation: fondu2 10s ease-in-out infinite both; 
+	background-repeat: no-repeat;
+	background-position: 0px 20px;
+	
+
+}
+.font2:hover{
+	animation-play-state: paused;
+}
+
+
+
+}
+.conteneur{
+	background-color: gray;
+	max-width: 650px;
+	overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0px 15px 10px -5px ;
+}
+@keyframes fondu {
+	0%{background-image: url("coupe (1).jpg");}
+	33.33%{background-image: url("img (19).jpeg");}
+	66.67%{background-image: url("img (17).jpeg");}
+	100%{background-image: url("coupe (1).jpg");}
+}
+.font{
+	width:650px;
+	height:650px;
+	margin-left:30px auto ;
+	box-shadow: 0px 20px 8px -10px blue;
+	background-color: #EDEDED; 
+	
+	
+	
+	animation: fondu 10s ease-in-out infinite both; 
+	background-repeat: no-repeat;
+	background-position: 0px 20px;
+	
+
+}
+.font:hover{
+	animation-play-state: paused;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homme{
+	width: 100%;
+	max-width: 1350px;
+	height: 600px;
+	margin-top: 100px;
+	display: flex;
+
+}
+.photo1{
+	width: 45%;
+	
+	margin-top: 50px;
+	
+}
+.photo1 img{
+border-radius: 10px;
+}
+.prix{
+	width: 55%;
+	
+	padding-top: 60px;
+	text-align: center;
+	width: 50% auto;
+}
+
+.prix figcaption span{
+	padding-right: 0px;
+	font-size: 20px;
+	position: right;
+	text-align: justify;
+}
+.prix h4,h3{
+	margin-bottom: 30px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.coupe{
+
+background-color: pink;
+}
+.divcoupe1{
+	height:200px;
+	padding-top: 50px;
+
+}
+.divcoupe1 p{
+	font-size: 50px;
+}
+.photocoupe1{
+	display: flex;
+	height:1200px;
+	background-color:blue;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 60px;
+
+}
+.tof1{
+	height:300px;
+	width: 33.33%;
+	background-color: blue;
+}
+.tof2{
+	height:300px;
+	width: 33.33%;
+	background-color: yellow;
+}
+.tof3{
+	height: 300px;
+	width: 33.33%;
+	background-color: gray;
+
+}
+.tof4{
+	height: 300px;
+	width: 33.33%;
+	background-color: pink;
+}
+.tof5{
+	height: 300px;
+	width: 33.33%;
+	background-color: black;
+}
+.tof6{
+	height: 300px;
+	width: 33.33%;
+	background-color: blue;
+}
+
+.tof7{
+	height: 300px;
+	width: 33.33%;
+	background-color: red;
+}
+.tof8{
+	height: 300px;
+	width: 33.33%;
+	background-color: brown;
+}
+.tof9{
+	height: 300px;
+	width: 33.33%;
+	background-color: white;
+}
+.tof10{
+	height: 300px;
+	width: 33.33%;
+	background-color: pink;
+}
+.tof11{
+	height: 300px;
+	width: 33.33%;
+	background-color: blue;
+}
+.tof12{
+	height: 300px;
+	width: 33.33%;
+	background-color: brown;
+}
+.white{
+	color:white;
+}
+.table{
+	border-top: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comment p{
+	margin-top: 30px;
+	font-size: 20px;
+	margin-bottom: 30px;
+
+}
+.comment p span{
+	color:pink;
+}
+
+
+
+
+.footer1{
+	width: 100%;
+	height: 30px;
+	background-color: transparent;
+	padding-bottom: 50px;
+}
+.footer1 p{
+	text-align: center;
+	color:pink;
+}
+.footer1 img{
+	padding-top:4px;
+}
+.footer{
+	display: flex;
+	background: black;
+	justify-content: space-between;
+	height: 230px;
+	width: 100%;
+	word-wrap: wrap;
+}
+
+.footer span{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+.footer-left{
+	width: 50%;
+	text-align: left;
+	background-color:white;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.footer-left div{
+	text-align: left;
+}
+.footer-left figcaption{
+	text-align: left;
+}
+
+.footer-right{
+	width:50%;
+	background-color: pink;
+	margin-right: 0px;
+	padding-right: 50px;
+	padding-top: 30px;
+}
+.footer-right div{
+	text-align:right;
+
+}
+.footer-right figcaption{
+	text-align: right;
+}
+.fin{
+	text-align: center;
+}
